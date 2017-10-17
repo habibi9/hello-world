@@ -8,6 +8,6 @@ def hello_world():
 
 @app.route('/receive', methods = ['POST', 'GET'])
 def receive():
-	firstname = request.form['firstname']
-	return firstname
+	if request.method == 'GET':
+		return "This is a message from the server."
 	
