@@ -1,4 +1,6 @@
 # hello-world
-This is a test repository and where I put random stuff
+This is a my first assignment for joining Tsinghua Lab μ.
 
-I'm Habib and I like riding bicycles.
+All criticism from the Dalaos is welcomed!
+
+The webpage will make a GET request to the flask server at the push of a button and display the fetched data via jQuery.
