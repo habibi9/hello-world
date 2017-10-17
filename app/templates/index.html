@@ -20,7 +20,6 @@
         age = $form.find("input[name='age']").val(),
         url = $form.attr("action");
       var tbody = jQuery('#result');  
-      //tbody.append('<div class="alert alert-success" role="alert" id="result">Your name is ' + this['firstname'].value + ', and you are ' + this['age'].value + ' years old</div>');  
       $.post(url, { name: name, age: age })
         .done(function(data){
           tbody.append('<div class="alert alert-success" role="alert" id="result">' + data + '</div>');
